@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const apiBaseAddress = "http://localhost:3005";
+const apiBaseAddress = "http://localhost:3002";
 
 export const load = createAsyncThunk("results/load", async (id: string) => {
   const response = await axios.get(apiBaseAddress + "/results?postId=" + id);

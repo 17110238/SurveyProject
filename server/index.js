@@ -97,6 +97,6 @@ app.get("/results", function (req, res) {
   });
 });
 
-app.listen(port || 3005, function () {
-  console.log(`Listening in port ${port || 3005}!`);
+app.listen(port || 3002, function () {
+  console.log(`Listening in port ${port || 3002}!`);
 });

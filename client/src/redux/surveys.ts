@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { ISurveyDefinition } from "../models/survey";
 
-const apiBaseAddress = "http://localhost:3005";
+const apiBaseAddress = "http://localhost:3002";
 
 const initialState: {
   surveys: Array<ISurveyDefinition>;
