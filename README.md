@@ -11,3 +11,7 @@ Step 5: "cd server" folder and npm i
 Step 6: copy 'http://localhost:3000/home' to load data
 
 Note: not using http://localhost:3000
+
+: Port FE: 3000
+
+: Port BE: 3002
